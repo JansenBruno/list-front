@@ -1,0 +1,16 @@
+:root{font-family: Inter, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+body{margin:20px;background:#f5f7fb}
+.container{max-width:900px;margin:0 auto}
+.card{background:white;border-radius:8px;padding:12px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.form input{margin-right:8px;padding:8px}
+.list{padding:0}
+.task{display:flex;justify-content:space-between;align-items:center;padding:10px;border-bottom:1px solid #eee}
+.task:last-child{border-bottom:none}
+.task .left{display:flex;flex-direction:column}
+.task .title{font-weight:600}
+.task .meta{font-size:12px;color:#666}
+.actions button{margin-left:6px}
+.high-cost{background:#fff8d6}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center}
+.modal-content{width:100%;max-width:420px}
+.modal-actions{display:flex;gap:8px;margin-top:8px}
