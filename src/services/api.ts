@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_URL || 'https://list-backend-36o2.onrender.com/'
+const API = import.meta.env.VITE_API_URL || 'https://list-backend-36o2.onrender.com'
 
 export const api = {
   async list() {
